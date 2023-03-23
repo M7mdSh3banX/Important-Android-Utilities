@@ -1,5 +1,8 @@
-# Change from XML
-## Add this lines to themes.xml in the AppTheme style
+# Hide the action bar and status bar
+> You can do it both XML and Kotlin
+
+## Changing from XML
+### Add this lines to themes.xml in the AppTheme style
 ```XML
 <item name="windowActionBar">false</item>
 <item name="windowNoTitle">true</item>
@@ -7,8 +10,8 @@
 <item name="android:windowTranslucentStatus">true</item>
 <item name="android:windowTranslucentNavigation">true</item>
 ```
-# Change from Kotlin code
-## Add this lines to MainActivity.kt in onCreate
+## Change from Kotlin code
+### Add this lines to MainActivity.kt in onCreate
 ```kotlin
 window.apply {
 	clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
@@ -22,7 +25,7 @@ window.apply {
 	statusBarColor = Color.TRANSPARENT
 }
 ```        
-## Add this line to themes.xml in the AppTheme style
+### Add this line to themes.xml in the AppTheme style
 ```XML
 <item name="android:fitsSystemWindows">true</item>
 ```
