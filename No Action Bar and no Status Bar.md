@@ -1,5 +1,5 @@
 # Hide the action bar and status bar
-> You can do it both XML and Kotlin
+> You can do it using both XML and Kotlin
 
 ## Changing from XML
 ### Add this lines to themes.xml in the AppTheme style
