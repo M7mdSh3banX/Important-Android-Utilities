@@ -1,4 +1,4 @@
-# Hide the action bar and status bar
+# Hide the action bar and change status bar color
 > You can do it using both XML and Kotlin
 
 ## Changing from XML
